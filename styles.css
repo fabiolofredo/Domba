@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color:#f0f0f0;
+    color: #333;
     padding: 10px;
     width: 100%;
     /*position: fixed;*/
@@ -71,3 +71,41 @@ main{
     padding-left: 20px;
 
 }
+
+
+
+/* Cores suaves e neutras */
+body {
+    background-color: #f0f0f0; /* Cinza claro ou outra cor suave de sua escolha */
+  }
+  
+  /* Texto em cores neutras */
+  p {
+    color: #333; /* Cinza escuro ou outra cor neutra de sua escolha */
+  }
+  
+  /* Links em azul suave */
+  a {
+    color: #3498db; /* Azul suave ou outra cor de link suave de sua escolha */
+  }
+  
+  /* Botões em verde suave */
+  .button {
+    background-color: #2ecc71; /* Verde suave ou outra cor de botão de sua escolha */
+    color: #fff; /* Texto branco para contraste */
+  }
+  
+  /* Contraste entre texto e fundo */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000; /* Texto preto em fundo claro para melhor contraste */
+  }
+  
+  /* Bordas e linhas em tons mais escuros para definir elementos */
+  .container {
+    border: 1px solid #ccc; /* Borda cinza para definição */
+  }
+  
+  /* Pseudo-classes para interações de link */
+  a:hover {
+    color: #1f618d; /* Tom mais escuro de azul ao passar o mouse sobre links */
+  }
