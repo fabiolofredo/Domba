@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Meu Site</title>
+
+    <style>
+        .container {
+            display:flex;
+
+        }
+
+        .side-menu {
+            background-color: #eee;
+            padding:10px;
+            width: auto;
+            min-height:fit-content ;
+            margin:0;
+            top: 0; 
+            left: 0;
+            bottom: 0;
+        }
+
+        .side-menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .side-menu li {
+            margin-bottom: 10px;
+        }
+
+        .side-menu a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        main {
+            padding: 10px;
+            margin-left: 0; 
+        }
+
+    </style>
+
+
+</head>
+<body onload="createMenu()">
+    <div id="menu"></div>
+
+    <div class="container">
+        <aside class="side-menu">
+            <ul>
+                <li><a href="#">aaaaa</a></li>
+                <li><a href="#">bbbbb</a></li>
+                <li><a href="#">ccccc</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <h1>HOME</h1>
+            <a href="javascript:openPage('/pages/contato.html');">zzz</a>
+            <p>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a
+            <br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a
+            </p>
+
+        </main>
+    </div>
+
+    <script src="../script.js"></script>
+    <script>
+        function openPage(page) {
+            //window.open("https://www.w3schools.com");
+            window.alert(page + 10);
+            document.getElementById('pagina').src=page
+  
+        }
+    </script>
+</body>
+</html>
