@@ -109,3 +109,6 @@ a:hover {
 }
 
 /* Adapte as cores conforme necessário, mantendo a consistência no design. */
+*{
+  font-family: Arial, sans-serif;
+}
